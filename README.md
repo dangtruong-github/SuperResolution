@@ -2,6 +2,13 @@
 
 This repository contains the implementation of various super-resolution (SR) techniques, including CNN-based methods, GAN-based models, and diffusion-based approaches. Below are the details of the main components:
 
+## Members
+- Chu Hữu Đăng Trường
+- Nguyễn Kim Hoàng Anh
+- Nguyễn Đức Anh
+- Nguyễn Tiến Hùng
+- Đặng Ngọc Minh
+
 ## Components
 
 1. **sr-cnn.ipynb**  
@@ -14,7 +21,7 @@ This repository contains the implementation of various super-resolution (SR) tec
    This directory holds the code for fine-tuning a pre-trained SRGAN model. It leverages transfer learning to improve results on specific datasets by continuing the training process.
 
 4. **sr-diffusion**  
-   The SR diffusion model uses a probabilistic approach to generate high-resolution images through iterative refinement. This method differs from traditional CNN and GAN approaches by leveraging a diffusion process to generate realistic images.\
+   The SR diffusion model uses a probabilistic approach to generate high-resolution images through iterative refinement. This method differs from traditional CNN and GAN approaches by leveraging a diffusion process to generate realistic images.
 
 5. **data_analysis_and_process**
    Contains code for train data analysis and train, test split.
