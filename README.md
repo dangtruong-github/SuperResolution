@@ -24,6 +24,7 @@ This repository contains the implementation of various super-resolution (SR) tec
    The SR diffusion model uses a probabilistic approach to generate high-resolution images through iterative refinement. This method differs from traditional CNN and GAN approaches by leveraging a diffusion process to generate realistic images.
 
 5. **data_analysis_and_process**
+
    Contains code for train data analysis and train, test split.
 
 ## Evaluation
