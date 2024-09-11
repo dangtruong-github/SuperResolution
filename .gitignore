@@ -1,12 +1,20 @@
+result/
+model/
+__pycache__/
+wandb/
+*.txt
+*.log
+
 
 *.json
 *.h5
 *.hdf5
 .DS_Store
 
-data/*
-implementations/*/data
-implementations/*/images
-implementations/*/saved_models
+wandb/
 
-__pycache__
+data/*
+srgan-orig/implementations/*/data
+srgan-orig/implementations/*/images
+srgan-orig/implementations/*/saved_models
+
