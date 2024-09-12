@@ -31,15 +31,15 @@ This repository contains the implementation of various super-resolution (SR) tec
 
 The following table summarizes the evaluation metrics for each model:
 
-| Model           | PSNR  | PSNR_LR | SSIM  | LPIPS |
+| Model           | PSNR  | SSIM_LR | SSIM  | LPIPS |
 |-----------------|-------|---------|-------|-------|
-| sr-cnn          | 28.75 | 24.50   | 0.73  | 0.12  |
-| srgan-orig      | 18.09 | 18.50   | 0.71  | 0.08  |
-| srgan-finetune  | 30.87 | 24.00   | 0.85  | 0.21  |
+| sr-cnn          | 28.75 | 0.79    | 0.73  | 0.12  |
+| srgan-orig      | 22.09 | 0.75    | 0.71  | 0.08  |
+| srgan-finetune  | 30.87 | 0.93    | 0.85  | 0.21  |
 | sr-diffusion    | 31.49 | -       | 0.88  | -     |
 
 Each model is evaluated using four key metrics:
 - **PSNR** (Peak Signal-to-Noise Ratio)
-- **PSNR_LR** (PSNR for low-resolution input)
 - **SSIM** (Structural Similarity Index)
+- **SSIM_LR** (SSIM for low-resolution input)
 - **LPIPS** (Learned Perceptual Image Patch Similarity)
