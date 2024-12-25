@@ -1,0 +1,24 @@
+name: "srgan"
+main:
+  test_mode: true
+  save_path: "exp_e"
+
+  data:
+    train_set: "celeba"
+    val_set: "celeba_hq"
+    batch_size: 4
+    n_cpu: 32
+    hr_height: 256
+    hr_width: 256
+
+  model:
+    epoch: -1
+    n_epochs: 200
+    lr: 0.00002
+    b1: 0.5
+    b2: 0.999
+    loss_gan_rate: 0.01
+    decay_epoch: 100
+    channels: 3
+    sample_interval: 100
+    checkpoint_interval: 1
